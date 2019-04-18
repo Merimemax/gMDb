@@ -29,6 +29,14 @@ nav {
   display: flex;
   justify-content: space-around;
   border: .1em solid black;
+  border-radius: .5em;
+}
+.mynav{
+  padding-right: 1em;
+}
+.myform{
+  margin:auto;
+  margin-right: 1em;
 }
 ul {
   list-style: none;
@@ -52,6 +60,7 @@ ul {
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 0.8em;
   padding: 20px;
   font-size: 30px;
   display: flex;
@@ -63,8 +72,8 @@ ul {
 
 @media (max-width: 1240px) {
   .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    background-color: rgba(120, 100, 100, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.5);
     padding: 10px;
     font-size: 20px;
 
